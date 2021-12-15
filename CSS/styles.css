@@ -1,0 +1,244 @@
+body {
+	background-color: lightblue;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.name, .navmenu {
+	text-align: center;
+}
+
+button {
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+}
+
+.Hobbies, .Contact, .About, .Work, .Skills, .BackAM, .BackHB, .BackSkills, .BackCT, .BackDC, .aboutbutton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid crimson;
+}
+
+.Hobbies:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.Contact:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.About:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.Work:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.Skills:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.BackAM:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.BackHB:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.BackSkills:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.BackCT:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.BackDC:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.aboutbutton:hover{
+  background-color: crimson;
+  color: white;
+}
+
+.picturegilid img{
+	width: 250px;
+	height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info{
+	text-align: center;
+	font-size: 30px;
+}
+
+.hobbieheader, .coreheader, .contacthead,.EducBack{
+	font-size: 30px;
+	text-align: center;
+}
+
+.p-box {
+    background-color: #1F1F1F;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 13px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+    .p-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.p-container {
+    width: 90%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay-text {
+    font-family: calibri;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(23,209,172,0.80);
+    display: none;
+}
+
+    .overlay-text h1,{
+        color: #FFFFFF;
+    }
+
+    .overlay-text h1 {
+        font-size: 2.2rem;
+        margin: 0px;
+        padding: 0px;
+        letter-spacing: 2px;
+    }
+
+
+.p-box:hover .overlay-text {
+    display: flex;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px darkred;
+    background-color: ;
+    text-align: center;
+    z-index: 5;
+    width: 650px;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+thead {
+    box-shadow: 0 5px 10px darkred;
+}
+
+th {
+    padding: 3rem 6rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+    color: black;
+}
+
+td {
+    padding: 3%;
+    color: black;
+}
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.contact-form-text{
+  display: block;
+  width: 50%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  padding: 20px 40px;
+  outline: none;
+  transition: 0.5s;
+  margin-left: auto;
+  margin-right: auto;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+ text-align: center;
+  border: 0;
+  background: crimson;
+  color: white;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-form-btn:hover{
+  background: darkblue;
+}
+.facebook{
+    width: 50px;
+    height: 50px;
+}
+
+.twitter{
+    width: 50px;
+    height: 50px;
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
